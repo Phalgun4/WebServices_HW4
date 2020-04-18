@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+    <html>
+      <head>
+          <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <title>About Me</title>
+        <!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="./addCard.js"></script>
+      </head>
+      <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      	  <a class="navbar-brand" href="home.html">
+      	  </a>
+      	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      		<span class="navbar-toggler-icon"></span>
+      	  </button>
+      	  <div class="collapse navbar-collapse" id="navbarText">
+      		<ul class="navbar-nav">
+      		  <li class="nav-item active">
+      			<a class="nav-link" href="tic-tac-toe/tic-tac-toe.html">Tic Tac Toe</a>
+      		  </li>
+      		  <li class="nav-item">
+      			<a class="nav-link" href="">Profile</a>
+      		  </li>
+      		  <li class="nav-item">
+      			<a class="nav-link" href="signup-modal/login.html">Sign Up Modal</a>
+      		  </li>
+            <li class="nav-item">
+      			<a class="nav-link" href="index.html">Weather</a>
+      		  </li>
+      		</ul>
+      		<div class="form-inline my-2 my-lg-0">
+      		</div>
+      	  </div>
+      	</nav>
+      <div class="container">
+        <h1>Taman, Phalgun - <small class="text-muted">Software Development Methods and Tools</small></h1>
+     </div>
+  <div class="card">
+    <div class="card-body"><p>I am studying computer science, because, I find it interesting. I also am fascinated by the various languages and the endless posibility of developing products. I am also interested in working with different people, as it would be extremley insightful.</p>
+    </div>
+  </div>
+        <h2>My personal profile</h2>
+        <div class="container">
+        <a href="https://github.com/Phalgun4/" class="btn btn-info" role="button">Phalgun's Github</a>
+        </div>
+        <img src="./imgs/phalgun.jpeg" class="rounded-circle" height="500px" width="500px" >
+        <h3>My favorite projects</h3>
+    <table class="table table-dark" border="1">
+        <tr>
+          <td> <b> Name of the project </b> </td>
+          <td> <b> Technology used </b></td>
+        </tr>
+          <tr>
+            <td> Game of Thrones </td>
+            <td> C++ </td>
+          </tr>
+          <tr>
+            <td> Library of books and movies </td>
+            <td> C++ </td>
+          </tr>
+          <tr>
+          <td> Various Hashing methods </td>
+          <td> C++</td>
+        </tr>
+      </table>
+    </body>
+    <br>
+    <body>
+      <h3> My interests </h3>
+
+      <ul class="list-group list-group-horizantal">
+
+      <div class = "card" id="interest1">
+        <img src="./imgs/reading.jpeg" alt="My favorite hobby" height="250px" width="350px">
+        <li class="list-group-item"> Reading-My passion because it provides knowledge.</li>
+        <button type="button" onclick="addCard('interest1')">+</button>
+      </div>
+
+      <div class = "card" id="interest2">
+        <img src="./imgs/coding.jpeg" alt="My favorite hobby" height="250px" width="350px">
+        <li class="list-group-item"> Coding-My passion because it is my carreer.</li>
+        <button type="button" onclick="addCard('interest2')">+</button>
+      </div>
+
+      <div class = "card" id="interest3">
+        <img src="./imgs/football.jpeg" alt="My favorite hobby" height="250px" width="350px">
+        <li class="list-group-item"> Football-My passion because it is fun to play and watch.</li>
+        <button type="button" onclick="addCard('interest3')">+</button>
+      </div>
+
+  </ul>
+  </body>
+    </html>
